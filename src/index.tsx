@@ -1,8 +1,9 @@
 import * as React from 'react'
 
-export function typeVerifier<U>() {
+export function typeVerifier<U extends React.ComponentType<any>>() {
+  type Props = U extends React.ComponentType<infer P> ? P : never
   return {
-    verify<T extends U>(x: T) {
+    verify<T extends Props>(x: React.ComponentType<T>) {
       return x
     }
   }
