@@ -4,5 +4,26 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.51"
-  }
+  },
+  "name": "infancy",
+  "description": "In an app’s infancy, a UI doesn’t have to be fancy for it not to be 💩",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/infancy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtinth/infancy/issues"
+  },
+  "homepage": "https://github.com/dtinth/infancy#readme"
 }
