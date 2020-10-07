@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "typescript": "^4.0.3"
   },
   "devDependencies": {
-    "@types/react": "^16.9.51"
+    "typescript": "^4.0.3"
   },
   "name": "infancy",
   "description": "In an app’s infancy, a UI doesn’t have to be fancy for it not to be 💩",
