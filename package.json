@@ -8,7 +8,8 @@
   "name": "infancy",
   "description": "In an app’s infancy, a UI doesn’t have to be fancy for it not to be 💩",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "src"
